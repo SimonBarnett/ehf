@@ -231,6 +231,7 @@ class Asset():
             for e in (e for e in self.ehf.e.enrolled 
                 if e.available <= self.current_day 
                 and e.meets_requirements(["catering"])
+                and e.specialization == None
             ):   
                 if s > 0:                                 
                     e.add_placement(self, f"Catering_Placement", self.last_day_of_month(self.current_day))  
