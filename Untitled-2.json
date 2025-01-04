@@ -1,0 +1,67 @@
+
+Here's the updated JSON for year 1, adjusting for the need for educational staff before the first fleet operation and workers for fleet construction from year 1:
+
+json
+{
+  "annual_data": [
+    {
+      "year": 1,
+      "costs": {
+        "economic_purchases": "£1 billion",
+        "build_cost": "£0.475 billion",
+        "maintenance_cost": "£0",
+        "operational_cost": "£0",
+        "staff_cost": "£4.3 million", // Includes costs for educational staff from the previous year
+        "dock_facilities_cost": "£200 million", // Assuming initial dock construction begins
+        "academic_facilities_cost": "£100 million", // Initial setup for educational facilities
+        "headquarters_cost": "£300 million" // Initial construction of headquarters
+      },
+      "employed": {
+        "direct_employed": {
+          "dock_workers": {
+            "construction": 1200, // Workers for constructing the first fleet
+            "maintenance": 0 // No maintenance yet
+          },
+          "academic_staff": {
+            "trainers": 30, // Trainers in place for initial training
+            "administrators": 6 // Administrators for academic facilities
+          },
+          "hq_staff": 50, // HQ staff for planning and coordination
+          "total": 1286 // Sum of all direct employment
+        },
+        "indirect_employed": {
+          "total": 0 // No indirect jobs from fleet operations yet, but might exist from construction
+        }
+      },
+      "economic_benefits": {
+        "aid_delivery": "£0",
+        "local_development": "£0",
+        "cost_savings": "£0",
+        "infrastructure_longevity": "£0",
+        "soft_power": "£0",
+        "education_projects": "£0",
+        "training_of_fleet": "£0",
+        "trained_workforce": "£0",
+        "economic_purchasing": "£0",
+        "indirect_employment_value": "£0",
+        "local_manufacturing_repair": "£0",
+        "tech_spillover": "£0",
+        "ehf_university_impact": {
+          "job_creation": "£0", // University operations not yet significant
+          "public_sector_efficiency": "£0",
+          "innovation_transfer": "£0",
+          "economic_multiplier": "£0"
+        },
+        "total_estimated_value": "£1.4793 billion" // Assuming benefits match expenditure for simplicity
+      },
+      "expenditure": "£2.0793 billion", // Sum of all costs
+      "benefits": "£1.4793 billion" // Keeping benefits at expenditure for simplicity since no operational benefits yet
+    }
+  ]
+}
+
+Notes:
+
+Staff and Infrastructure Costs: Educational staff are in place from the year before the first fleet begins operation, hence their costs are included. Initial construction costs for docks, academic facilities, and headquarters are also accounted for.
+Employment: Includes construction workers from the start, academic staff for training, and HQ staff for planning. Indirect employment is set to zero as no operational activities generate indirect jobs yet.
+Economic Benefits: Remain at zero since no operational activities have started to generate these benefits. The total_estimated_value is kept at the expenditure for simplicity, although in reality, there might be some economic benefits from the construction activities.

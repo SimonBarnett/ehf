@@ -1,0 +1,327 @@
+{
+    "Basic_Naval_Training": {
+        "initial_purchase_price": 30000,
+        "class_size": 50,
+        "class_duration": "12 weeks",
+        "responsible_faculty": [
+            "naval",
+            "force_protection"
+        ],
+        "provider": [
+            "docks"
+        ]
+    },
+    "Advanced_Naval_Training": {
+        "initial_purchase_price": 30000,
+        "class_size": 25,
+        "class_duration": "26 weeks",
+        "specialization": true,
+        "prerequisites": [
+            "security",
+            "medical",
+            "Basic_Naval_Training"
+        ],
+        "responsible_faculty": [
+            "naval",
+            "engineering",
+            "force_protection"
+        ],
+        "provider": [
+            "naval_school"
+        ]
+    },
+    "civil_engineering": {
+        "initial_purchase_price": 60000,
+        "class_size": 20,
+        "class_duration": "12 weeks",
+        "responsible_faculty": [
+            "engineering"
+        ],
+        "provider": [
+            "Engineering_School"
+        ]
+    },
+    "Advanced_Civil_Engineering": {
+        "initial_purchase_price": 60000,
+        "class_size": 15,
+        "class_duration": "26 weeks",
+        "specialization": true,
+        "prerequisites": [
+            "civil_engineering"
+        ],
+        "responsible_faculty": [
+            "engineering"
+        ],
+        "provider": [
+            "Technology_Institute"
+        ]
+    },
+    "naval_engineering": {
+        "initial_purchase_price": 50000,
+        "class_size": 20,
+        "class_duration": "20 weeks",
+        "responsible_faculty": [
+            "naval",
+            "engineering"
+        ],
+        "provider": [
+            "docks"
+        ]
+    },
+    "Advanced_naval_engineering": {
+        "initial_purchase_price": 60000,
+        "class_size": 15,
+        "class_duration": "26 weeks",
+        "specialization": true,
+        "prerequisites": [
+            "naval_engineering",
+            "Basic_Naval_Training"
+        ],
+        "responsible_faculty": [
+            "naval",
+            "engineering"
+        ],
+        "provider": [
+            "naval_school"
+        ]
+    },
+    "medical": {
+        "initial_purchase_price": 75000,
+        "class_size": 15,
+        "class_duration": "12 weeks",
+        "responsible_faculty": [
+            "medical"
+        ],
+        "provider": [
+            "barracks",
+            "teaching_hospital"
+        ]
+    },
+    "Advanced_Medical_Training": {
+        "initial_purchase_price": 75000,
+        "class_size": 10,
+        "class_duration": "24 weeks",
+        "specialization": true,
+        "prerequisites": [
+            "medical",
+            "Basic_Naval_Training"
+        ],
+        "responsible_faculty": [
+            "medical"
+        ],
+        "provider": [
+            "teaching_hospital"
+        ]
+    },
+    "security": {
+        "initial_purchase_price": 40000,
+        "class_size": 25,
+        "class_duration": "8 weeks",
+        "responsible_faculty": [
+            "force_protection"
+        ],
+        "provider": [
+            "barracks"
+        ]
+    },
+    "Advanced_Security_Training": {
+        "initial_purchase_price": 40000,
+        "class_size": 20,
+        "class_duration": "26 weeks",
+        "specialization": true,
+        "prerequisites": [
+            "security",
+            "medical",
+            "Basic_Naval_Training"
+        ],
+        "responsible_faculty": [
+            "force_protection",
+            "medical"
+        ],
+        "provider": [
+            "vr_hall"
+        ]
+    },
+    "catering": {
+        "initial_purchase_price": 25000,
+        "class_size": 30,
+        "class_duration": "6 weeks",
+        "responsible_faculty": [
+            "catering"
+        ],
+        "provider": [
+            "catering_upgrade"
+        ]
+    },
+    "Advanced_Catering": {
+        "initial_purchase_price": 25000,
+        "class_size": 20,
+        "class_duration": "12 weeks",
+        "prerequisites": [
+            "catering",
+            "Basic_Naval_Training",
+            "medical"
+        ],
+        "responsible_faculty": [
+            "catering",
+            "medical"
+        ],
+        "provider": [
+            "catering_upgrade"
+        ]
+    },
+    "IT_and_Communications": {
+        "initial_purchase_price": 90000,
+        "class_size": 25,
+        "class_duration": "12 weeks",
+        "responsible_faculty": [
+            "it",
+            "engineering"
+        ],
+        "provider": [
+            "Engineering_School",
+            "barracks"
+        ]
+    },
+    "Advanced_IT_and_Communications": {
+        "initial_purchase_price": 90000,
+        "class_size": 15,
+        "class_duration": "26 weeks",
+        "specialization": true,
+        "prerequisites": [
+            "IT_and_Communications",
+            "Basic_Naval_Training"
+        ],
+        "responsible_faculty": [
+            "it",
+            "engineering"
+        ],
+        "provider": [
+            "Technology_Institute"
+        ]
+    },
+    "Humanitarian_Aid_and_Logistics": {
+        "initial_purchase_price": 65000,
+        "class_size": 30,
+        "class_duration": "10 weeks",
+        "prerequisites": [
+            "IT_and_Communications",
+            "Basic_Naval_Training"
+        ],
+        "responsible_faculty": [
+            "naval",
+            "force_protection"
+        ],
+        "provider": [
+            "headquarters"
+        ]
+    },
+    "Advanced_Humanitarian_Aid_and_Logistics": {
+        "initial_purchase_price": 65000,
+        "class_size": 20,
+        "class_duration": "14 weeks",
+        "prerequisites": [
+            "Humanitarian_Aid_and_Logistics",
+            "Advanced_Naval_Training"
+        ],
+        "responsible_faculty": [
+            "naval",
+            "force_protection",
+            "medical"
+        ],
+        "provider": [
+            "lecture_hall"
+        ]
+    },
+    "Leadership_and_Management": {
+        "initial_purchase_price": 70000,
+        "class_size": 15,
+        "class_duration": "14 weeks",
+        "responsible_faculty": [
+            "naval",
+            "force_protection",
+            "engineering",
+            "it"
+        ],
+        "prerequisites": [
+            "Advanced_Security_Training",
+            "Advanced_Naval_Training",
+            "Economics_and_Development",
+            "Humanitarian_Aid_and_Logistics"
+        ],
+        "provider": [
+            "headquarters"
+        ]
+    },
+    "Advanced_Leadership_and_Management": {
+        "initial_purchase_price": 70000,
+        "class_size": 10,
+        "class_duration": "18 weeks",
+        "prerequisites": [
+            "Leadership_and_Management",
+            "medical"
+        ],
+        "responsible_faculty": [
+            "naval",
+            "force_protection",
+            "medical",
+            "engineering",
+            "it"
+        ],
+        "provider": [
+            "lecture_hall"
+        ]
+    },
+    "Economics_and_Development": {
+        "initial_purchase_price": 80000,
+        "class_size": 20,
+        "class_duration": "18 weeks",
+        "responsible_faculty": [
+            "naval",
+            "it"
+        ],
+        "prerequisites": [
+            "IT_and_Communications",
+            "Humanitarian_Aid_and_Logistics",
+            "security",
+            "Basic_Naval_Training"
+        ],
+        "provider": [
+            "headquarters"
+        ]
+    },
+    "Advanced_Economics_and_Development": {
+        "initial_purchase_price": 80000,
+        "class_size": 15,
+        "class_duration": "22 weeks",
+        "prerequisites": [
+            "Economics_and_Development",
+            "Advanced_IT_and_Communications",
+            "Advanced_Naval_Training"
+        ],
+        "responsible_faculty": [
+            "it",
+            "medical"
+        ],
+        "provider": [
+            "lecture_hall"
+        ]
+    },
+    "Environmental_Science": {
+        "initial_purchase_price": 55000,
+        "class_size": 12,
+        "class_duration": "20 weeks",
+        "prerequisites": [
+            "Basic_Naval_Training",
+            "civil_engineering",
+            "IT_and_Communications"
+        ],
+        "responsible_faculty": [
+            "engineering",
+            "it"
+        ],
+        "provider": [
+            "lecture_hall"
+        ]
+    }
+}

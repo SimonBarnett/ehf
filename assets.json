@@ -1,0 +1,295 @@
+{    
+    "Engineering_School": {
+        "initial_purchase_price": 150000000,
+        "daily_maintenance": 8219,
+        "max_classes": 40,          
+        "build_time": "24 months",
+        "names": [
+            "EHF Isambard Kingdom Brunel School of Engineering",
+            "EHF James Watt School of Engineering",
+            "EHF Joseph Bazalgette School of Engineering",
+            "EHF George Stephenson School of Engineering",
+            "EHF Robert Stephenson School of Engineering",
+            "EHF Thomas Telford School of Engineering",
+            "EHF James Prescott Joule School of Engineering",
+            "EHF Michael Faraday School of Engineering",
+            "EHF Charles Babbage School of Engineering",
+            "EHF Ada Lovelace School of Engineering",
+            "EHF Frank Whittle School of Engineering",
+            "EHF Barnes Wallis School of Engineering",
+            "EHF Alan Turing School of Engineering",
+            "EHF John Ambrose Fleming School of Engineering",
+            "EHF Oliver Heaviside School of Engineering",
+            "EHF William Rankine School of Engineering",
+            "EHF Alan Arnold Griffith School of Engineering",
+            "EHF Dorothy Hodgkin School of Engineering",
+            "EHF William Thomson, Lord Kelvin School of Engineering",
+            "EHF Harry Brearley School of Engineering"
+        ]
+    },
+    "Technology_Institute": {
+        "initial_purchase_price": 10000000,
+        "daily_maintenance": 3219,        
+        "max_classes": 40,          
+        "build_time": "12 months",        
+        "upgrades": [
+            "Engineering_School"
+        ] 
+    },    
+    "headquarters": {
+        "initial_purchase_price": 300000000,
+        "daily_maintenance": 8219,
+        "number_of_operations_rooms": 5,
+        "max_classes": 5,          
+        "build_time": "24 months",
+          "names": [
+            "EHF Wellington HQ",
+            "EHF Nelson HQ",
+            "EHF Montgomery HQ",
+            "EHF Marlborough HQ",
+            "EHF Drake HQ",
+            "EHF Kitchener HQ",
+            "EHF Haig HQ",
+            "EHF Wolfe HQ",
+            "EHF Alanbrooke HQ",
+            "EHF Slim HQ",
+            "EHF Cunningham HQ",
+            "EHF Beatty HQ",
+            "EHF Cornwallis HQ",
+            "EHF Clive HQ",
+            "EHF Moore HQ",
+            "EHF Alamein HQ",
+            "EHF Jellicoe HQ",
+            "EHF Trenchard HQ",
+            "EHF Roberts HQ",
+            "EHF Gordon HQ"
+        ]    
+    },
+    "lecture_hall": {
+        "initial_purchase_price": 10000000,
+        "daily_maintenance": 548,
+        "upgrades": [
+            "headquarters"
+        ],
+        "build_time": "3 months"
+    },    
+    "operations_room_upgrade": {
+        "initial_purchase_price": 10000000,
+        "daily_maintenance": 548,
+        "upgrades": [
+            "headquarters"
+        ],
+        "build_time": "3 months"
+    },
+    "planning_staff_upgrade": {
+        "initial_purchase_price": 5000000,
+        "daily_maintenance": 274,
+        "upgrades": [
+            "headquarters"
+        ],
+        "build_time": "1 month"
+    },    
+    "docks": {
+        "initial_purchase_price": 200000000,
+        "daily_maintenance": 5479,
+        "drydocks": 0,
+        "max_classes": 10,        
+        "build_time": "18 months",
+        "names": [
+            "EHF Nelson dock facility",
+            "EHF Drake dock facility",
+            "EHF Rodney dock facility",
+            "EHF Jellicoe dock facility",
+            "EHF Beatty dock facility",
+            "EHF Hood dock facility",
+            "EHF Anson dock facility",
+            "EHF Hawke dock facility",
+            "EHF Collingwood dock facility",
+            "EHF Blake dock facility",
+            "EHF Raleigh dock facility",
+            "EHF Howe dock facility",
+            "EHF St. Vincent dock facility",
+            "EHF Exmouth dock facility",
+            "EHF Grenville dock facility",
+            "EHF Parker dock facility",
+            "EHF Torrington dock facility",
+            "EHF Duncan dock facility",
+            "EHF Vernon dock facility",
+            "EHF Keyes dock facility"
+          ]        
+    },
+    "naval_school": {
+        "initial_purchase_price": 500000,
+        "daily_maintenance": 1740,
+        "max_classes": 20,   
+        "upgrades": [
+            "docks"
+        ],
+        "build_time": "9 months"
+    },    
+    "dock_upgrade": {
+        "initial_purchase_price": 50000000,
+        "daily_maintenance": 2740,
+        "drydocks": 1,
+        "upgrades": [
+            "docks"
+        ],
+        "build_time": "9 months"
+    },
+    "large_dock_upgrade": {
+        "initial_purchase_price": 100000000,
+        "daily_maintenance": 2740,
+        "drydocks": 2,
+        "upgrades": [
+            "docks"
+        ],
+        "build_time": "15 months"
+    },
+    "barracks": {
+        "initial_purchase_price": 100000000,
+        "daily_maintenance": 4110,
+        "max_classes": 50,
+        "build_time": "12 months",
+        "names": [
+            "EHF-AC Faraday Barracks",
+            "EHF-AC Newton Barracks",
+            "EHF-AC Watt Barracks",
+            "EHF-AC Turing Barracks",
+            "EHF-AC Babbage Barracks",
+            "EHF-AC Darwin Barracks",
+            "EHF-AC Hawking Barracks",
+            "EHF-AC Brunel Barracks",
+            "EHF-AC Maxwell Barracks",
+            "EHF-AC Rutherford Barracks",
+            "EHF-AC Dirac Barracks",
+            "EHF-AC Cavendish Barracks",
+            "EHF-AC Telford Barracks",
+            "EHF-AC Priestley Barracks",
+            "EHF-AC Smeaton Barracks",
+            "EHF-AC Whittle Barracks",
+            "EHF-AC Kelvin Barracks",
+            "EHF-AC Davy Barracks",
+            "EHF-AC Fleming Barracks",
+            "EHF-AC Hodgkin Barracks"
+          ]        
+    },
+    "vr_hall": {
+        "initial_purchase_price": 50000000,
+        "daily_maintenance": 2055,
+        "max_classes": 6,
+        "upgrades": [
+            "barracks"
+        ],
+        "build_time": "6 months"
+    },    
+    "teaching_hospital": {
+        "initial_purchase_price": 100000000,
+        "daily_maintenance": 4110,
+        "max_classes": 50,    
+        "build_time": "12 months",
+        "names": [
+            "EHF-AC Faraday Hospital",
+            "EHF-AC Newton Hospital",
+            "EHF-AC Watt Hospital",
+            "EHF-AC Turing Hospital",
+            "EHF-AC Babbage Hospital",
+            "EHF-AC Darwin Hospital",
+            "EHF-AC Hawking Hospital",
+            "EHF-AC Brunel Hospital",
+            "EHF-AC Maxwell Hospital",
+            "EHF-AC Rutherford Hospital",
+            "EHF-AC Dirac Hospital",
+            "EHF-AC Cavendish Hospital",
+            "EHF-AC Telford Hospital",
+            "EHF-AC Priestley Hospital",
+            "EHF-AC Smeaton Hospital",
+            "EHF-AC Whittle Hospital",
+            "EHF-AC Kelvin Hospital",
+            "EHF-AC Davy Hospital",
+            "EHF-AC Fleming Hospital",
+            "EHF-AC Hodgkin Hospital"
+          ]        
+    },    
+    "warehouse": {
+        "initial_purchase_price": 50000000,
+        "daily_maintenance": 1370,
+        "m3": 50000,
+        "max_classes": 10,        
+        "build_time": "6 months",
+        "names": [
+            "EHF Keynes Storage facility",
+            "EHF Marshall Storage facility",
+            "EHF Smith Storage facility",
+            "EHF Ricardo Storage facility",
+            "EHF Malthus Storage facility",
+            "EHF Mill Storage facility",
+            "EHF Pigou Storage facility",
+            "EHF Edgeworth Storage facility",
+            "EHF Walras Storage facility",
+            "EHF Beveridge Storage facility",
+            "EHF Robbins Storage facility",
+            "EHF Hicks Storage facility",
+            "EHF Harrod Storage facility",
+            "EHF Kaldor Storage facility",
+            "EHF Friedman Storage facility",
+            "EHF Hayek Storage facility",
+            "EHF Galbraith Storage facility",
+            "EHF Meade Storage facility",
+            "EHF Samuelson Storage facility",
+            "EHF Stigler Storage facility"
+          ]        
+    },
+    "warehouse_upgrade": {
+        "initial_purchase_price": 25000000,
+        "daily_maintenance": 685,
+        "m3": 25000,
+        "max_classes": 5,         
+        "upgrades": [
+            "warehouses"
+        ],
+        "build_time": "3 months"
+    },        
+
+    "small_classroom_upgrade": {
+        "initial_purchase_price": 5000000,
+        "daily_maintenance": 1055,
+        "max_classes": 10,
+        "upgrades": [
+            "Engineering_School",
+            "headquarters",
+            "barracks",
+            "warehouse",
+            "teaching_hospital",
+            "docks"
+        ],
+        "build_time": "3 months"
+    },   
+    "large_classroom_upgrade": {
+        "initial_purchase_price": 10000000,
+        "daily_maintenance": 2055,
+        "max_classes": 20,
+        "upgrades": [
+            "Engineering_School",
+            "headquarters",
+            "barracks",
+            "warehouse",
+            "teaching_hospital",
+            "docks"
+        ],
+        "build_time": "3 months"
+    },        
+    "catering_upgrade": {
+        "initial_purchase_price": 500000,
+        "daily_maintenance": 4000,
+        "max_classes": 2,        
+        "upgrades": [
+            "Engineering_School",
+            "headquarters",
+            "barracks",
+            "warehouse",
+            "teaching_hospital",
+            "docks"
+        ],
+        "build_time": "2 month"
+    }
+}
