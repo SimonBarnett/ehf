@@ -34,5 +34,7 @@ Ship **P0 + P1** on issue #1. P2/P3 can be nits or Missing features.
 ## Out of scope this PR
 
 - Full Y1–Y4 / postgraduate pipeline (UNKNOWN).
-- Humanitarian theatre score (later).
+- Real Google Earth / Cesium globe (P4, LOCKED L6 — do not pretend P1 is the globe).
 - Rewriting the university essay in place (P3 = move, not this job unless cheap).
+
+P1 should still print **lat/lon** for assets and at least one **harder theatre** name from the README list as a deploy *target* (even if scoring is a stub), so MRB can see L6 was read.

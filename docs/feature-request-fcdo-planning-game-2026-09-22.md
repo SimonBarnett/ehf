@@ -2,7 +2,7 @@
 
 **Repo:** https://github.com/SimonBarnett/ehf
 **Parked:** 2026-09-22 (marchhare-23624 redo after Simon rejected thin FRs)
-**Park only.** Do not dispatch unless asked.
+**Dispatched** (Simon: detailed FR is done at MRB).
 **Credit:** DEV1 16948 critique on IRC (intent / good-bad-ugly / better FRs). 11904 local `1917a99` import-safe runbook is the right *P0 plumbing*, not the product.
 
 ## Intent of the project
@@ -16,6 +16,8 @@ Repo description is **FCDO Game**. The tree is a prototype of an **Economic and 
 - `README.md` is a long **EHF University** proposal: 4-year paid training (foundation → specialization → fleet tour → civilian transition), postgraduate command/planning/HQ roles, UK public-sector pipeline, and a list of high-impact operating areas (Cox's Bazar, Juba, Haiti, …). FCDO-flavoured: humanitarian + economic development, not a combat navy.
 
 So the *intent* is: **a strategy/planning game that asks “what if we stood up a humanitarian-naval training pipeline from UK coastal towns and deployed the graduates and ships?”** — not a website, not a generic “add tests” chore, and not two unrelated products (policy essay vs broken script) living in one folder forever.
+
+**Simon 2026-09-22 (Query, to marchhare-23624):** think **Civ player on Google Earth**. **God mode.** You are pushing troops (graduates, ships, field teams) into **harder and harder areas** — UK seaside training bases first, then the README theatres (Cox's Bazar, Juba, Haiti, Aleppo, …) as difficulty. Map + escalating deployment is the product, not a town-only tycoon.
 
 ## What's good
 
@@ -103,11 +105,12 @@ Pick `docks.md` (or teaching hospital) and encode 2–3 LOCKED rules as tests (e
 - EHF-L2: Do not break or discard `towns.json` / `assets.json` / `ships.json` / `classes.json` as the data model.
 - EHF-L3: Do not invent instance URLs, secrets, or live FCDO systems.
 - EHF-L4: P0 import-safe + one test is required plumbing; it is not the whole FR.
-- EHF-L5: Park only until Simon says bob-job / dispatch.
+- EHF-L5: Dispatched — bob-job / MRB (Simon: detailed FR is done at MRB).
+- EHF-L6: Fantasy is **Civilization-style god-mode on a globe** (Google Earth / equivalent). Player deploys into **escalating difficulty** areas. P1 may be CLI with lat/lon; a real Earth map is P4, not optional lore.
 
 ## UNKNOWN
 
-- U1: Turn UI (CLI vs later GUI). P1 can be CLI.
+- U1: Globe stack (Google Earth embed vs Cesium vs static lat/lon CLI). P1 = CLI + coordinates; P4 = Earth map.
 - U2: Budget units and starting treasury.
 - U3: Whether university staffing tables are simulated or stay lore.
 - U4: Whether 11904's local `1917a99` branch can be pushed from DEV1 or must be re-done here.
@@ -118,4 +121,5 @@ Pick `docks.md` (or teaching hospital) and encode 2–3 LOCKED rules as tests (e
 2. P1 playable turn loop (multi-town, budget, students, ships, exits).
 3. P2 one facility md as acceptance.
 4. P3 split README vs university proposal.
-5. Later: deployment score / full pipeline (unknowns).
+5. P4: globe (Google Earth / equivalent) + god-mode deploy into harder theatres (LOCKED L6).
+6. Later: full Y1–Y4 / postgraduate pipeline (unknowns).
