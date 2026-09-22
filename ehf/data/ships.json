@@ -1,0 +1,542 @@
+{
+  "FRIGATE": {
+    "cost_price": 1200000000,
+    "build_time": "48 months",
+    "maintenance": {
+      "price": 20000000,
+      "frequency": "Annual",
+      "duration": "1 week",
+      "location": "Port"
+    },
+    "overhaul": {
+      "price": 125000000,
+      "frequency": "Every 5 years",
+      "duration": "6 months",
+      "location": "Port"
+    },
+    "expected_lifetime": 25,
+    "names": [
+      "HMS Defender",
+      "HMS Protector",
+      "HMS Vanguard",
+      "HMS Courage",
+      "HMS Liberty",
+      "HMS Sentinel",
+      "HMS Guardian",
+      "HMS Valiant",
+      "HMS Conqueror",
+      "HMS Challenger",
+      "HMS Dauntless",
+      "HMS Endurance",
+      "HMS Intrepid",
+      "HMS Resolute",
+      "HMS Sovereign",
+      "HMS Triumph",
+      "HMS Victory",
+      "HMS Warrior",
+      "HMS Explorer",
+      "HMS Pathfinder"
+    ],
+    "crew": {
+      "naval": 200,
+      "force_protection": 100,
+      "medical": 20,
+      "engineering": 50,
+      "it": 10,
+      "catering": 15
+    },
+    "running_costs": {
+      "fuel": 5000000,
+      "supplies": 1000000,
+      "communications": 200000,
+      "miscellaneous": 300000
+    },
+    "daily_sailing_distance": 500
+  },
+  "HOSPITAL_SHIP": {
+    "cost_price": 850000000,
+    "build_time": "36 months",
+    "maintenance": {
+      "price": 12500000,
+      "frequency": "Annual",
+      "duration": "10 days",
+      "location": "Port"
+    },
+    "overhaul": {
+      "price": 75000000,
+      "frequency": "Every 7 years",
+      "duration": "4 months",
+      "location": "Port"
+    },
+    "expected_lifetime": 30,
+    "names": [
+      "RFA Mercy",
+      "RFA Comfort",
+      "RFA Hope",
+      "RFA Healing",
+      "RFA Care",
+      "RFA Sanctuary",
+      "RFA Solace",
+      "RFA Relief",
+      "RFA Compassion",
+      "RFA Recovery",
+      "RFA Lifeline",
+      "RFA Salvation",
+      "RFA Peace",
+      "RFA Harmony",
+      "RFA Serenity",
+      "RFA Oasis",
+      "RFA Refuge",
+      "RFA Safehaven",
+      "RFA Wellness",
+      "RFA Guardian"
+    ],
+    "crew": {
+      "naval": 50,
+      "force_protection": 20,
+      "medical": 500,
+      "engineering": 30,
+      "it": 20,
+      "catering": 30
+    },
+    "running_costs": {
+      "fuel": 3000000,
+      "supplies": 5000000,
+      "communications": 150000,
+      "miscellaneous": 200000
+    },
+    "daily_sailing_distance": 300
+  },
+  "ENGINEERING_BARGE": {
+    "cost_price": 10000000,
+    "build_time": "24 months",
+    "maintenance": {
+      "price": 1250000,
+      "frequency": "Annual",
+      "duration": "5 days",
+      "location": "Port"
+    },
+    "overhaul": {
+      "price": 5000000,
+      "frequency": "Every 10 years",
+      "duration": "2 months",
+      "location": "Port"
+    },
+    "expected_lifetime": 40,
+    "names": [
+      "RFA Builder One",
+      "RFA Constructor",
+      "RFA Innovator",
+      "RFA Engineer",
+      "RFA Builder Two",
+      "RFA Constructor Two",
+      "RFA Innovator Two",
+      "RFA Builder Three",
+      "RFA Constructor Three",
+      "RFA Innovator Three",
+      "RFA Master Builder",
+      "RFA Artisan",
+      "RFA Fabricator",
+      "RFA Workshop",
+      "RFA Foundry",
+      "RFA Forge",
+      "RFA Craft",
+      "RFA Mender",
+      "RFA Assembler",
+      "RFA Architect"
+    ],
+    "crew": {
+      "naval": 20,
+      "force_protection": 10,
+      "medical": 5,
+      "engineering": 100,
+      "it": 10,
+      "catering": 5
+    },
+    "running_costs": {
+      "fuel": 500000,
+      "supplies": 200000,
+      "communications": 50000,
+      "miscellaneous": 100000
+    },
+    "daily_sailing_distance": 200
+  },
+  "FLEET_TRANSPORT": {
+    "cost_price": 500000000,
+    "build_time": "30 months",
+    "maintenance": {
+      "price": 10000000,
+      "frequency": "Annual",
+      "duration": "7 days",
+      "location": "Port"
+    },
+    "overhaul": {
+      "price": 50000000,
+      "frequency": "Every 6 years",
+      "duration": "3 months",
+      "location": "Port"
+    },
+    "expected_lifetime": 35,
+    "names": [
+      "RFA Supply Star",
+      "RFA Logistic Leader",
+      "RFA Cargo Master",
+      "RFA Freight Runner",
+      "RFA Transport Titan",
+      "RFA Supply Chain",
+      "RFA Logistics Link",
+      "RFA Cargo Carrier",
+      "RFA Freight Forwarder",
+      "RFA Transport Trooper",
+      "RFA Supply Line",
+      "RFA Logistics Giant",
+      "RFA Cargo King",
+      "RFA Freight Express",
+      "RFA Transport Vanguard",
+      "RFA Supply Navigator",
+      "RFA Logistics Navigator",
+      "RFA Cargo Navigator",
+      "RFA Freight Navigator",
+      "RFA Transport Navigator"
+    ],
+    "crew": {
+      "naval": 40,
+      "force_protection": 20,
+      "medical": 10,
+      "engineering": 30,
+      "it": 5,
+      "catering": 20
+    },
+    "running_costs": {
+      "fuel": 8000000,
+      "supplies": 1500000,
+      "communications": 100000,
+      "miscellaneous": 200000
+    },
+    "daily_sailing_distance": 400
+  },
+  "RAPID_RESPONSE_HELICOPTER": {
+    "upgrades": ["FRIGATE" ] ,
+    "cost_price": 20000000,
+    "build_time": "12 months",
+    "maintenance": {
+      "price": 1000000,
+      "frequency": "Annual",
+      "duration": "3 days",
+      "location": "Fleet"
+    },
+    "overhaul": {
+      "price": 5000000,
+      "frequency": "Every 5 years",
+      "duration": "1 month",
+      "location": "Port"
+    },
+    "expected_lifetime": 20,
+    "names": [
+      "Swift Aid",
+      "Rapid Rescue",
+      "Emergency One",
+      "Quick Response",
+      "Urgent Lifeline",
+      "Rapid Relief",
+      "Swift Rescue",
+      "Emergency Two",
+      "Quick Aid",
+      "Urgent Response",
+      "Rapid Aid",
+      "Swift Lifeline",
+      "Emergency Three",
+      "Quick Assist",
+      "Urgent Rescue",
+      "Rapid Assist",
+      "Swift Support",
+      "Emergency Four",
+      "Quick Dispatch",
+      "Urgent Support"
+    ],
+    "crew": {
+      "naval": 2,
+      "force_protection": 1,
+      "medical": 1,
+      "engineering": 1,
+      "it": 0,
+      "catering": 0
+    },
+    "running_costs": {
+      "fuel": 1000000,
+      "supplies": 50000,
+      "communications": 20000,
+      "miscellaneous": 30000
+    }
+  },
+  "UTILITY_BOAT": {
+    "upgrades": [ "ENGINEERING_BARGE" ] ,
+    "cost_price": 1000000,
+    "build_time": "6 months",
+    "maintenance": {
+      "price": 50000,
+      "frequency": "Annual",
+      "duration": "2 days",
+      "location": "Fleet"
+    },
+    "overhaul": {
+      "price": 250000,
+      "frequency": "Every 3 years",
+      "duration": "1 week",
+      "location": "Port"
+    },
+    "expected_lifetime": 15,
+    "names": [
+      "Helper",
+      "Support",
+      "Link",
+      "Assistant",
+      "Utility One",
+      "Servant",
+      "Aid",
+      "Courier",
+      "Escort",
+      "Shuttle",
+      "Utility Two",
+      "Helper Two",
+      "Support Two",
+      "Link Two",
+      "Assistant Two",
+      "Servant Two",
+      "Aid Two",
+      "Courier Two",
+      "Escort Two",
+      "Shuttle Two"
+    ],
+    "crew": {
+      "naval": 3,
+      "force_protection": 1,
+      "medical": 0,
+      "engineering": 1,
+      "it": 0,
+      "catering": 0
+    },
+    "running_costs": {
+      "fuel": 50000,
+      "supplies": 10000,
+      "communications": 5000,
+      "miscellaneous": 10000
+    }    
+  },
+  "RIB": {
+    "upgrades": ["ENGINEERING_BARGE" , "HOSPITAL_SHIP"],
+    "cost_price": 500000,
+    "build_time": "3 months",
+    "maintenance": {
+      "price": 25000,
+      "frequency": "Annual",
+      "duration": "1 day",
+      "location": "Fleet"
+    },
+    "overhaul": {
+      "price": 100000,
+      "frequency": "Every 2 years",
+      "duration": "3 days",
+      "location": "Port"
+    },
+    "expected_lifetime": 10,
+    "names": [
+      "Quick",
+      "Rescue",
+      "Patrol",
+      "Swift",
+      "Guardian",
+      "Rapid",
+      "Sentry",
+      "Watchdog",
+      "Scout",
+      "Defender",
+      "Quick Two",
+      "Rescue Two",
+      "Patrol Two",
+      "Swift Two",
+      "Guardian Two",
+      "Rapid Two",
+      "Sentry Two",
+      "Watchdog Two",
+      "Scout Two",
+      "Defender Two"
+    ],
+    "crew": {
+      "naval": 4,
+      "force_protection": 2,
+      "medical": 0,
+      "engineering": 0,
+      "it": 0,
+      "catering": 0
+    },
+    "running_costs": {
+      "fuel": 20000,
+      "supplies": 5000,
+      "communications": 3000,
+      "miscellaneous": 7000
+    }
+  },
+  "DIVING_SUPPORT_VESSEL": {
+    "upgrades": ["ENGINEERING_BARGE" ] ,
+    "cost_price": 2000000,
+    "build_time": "8 months",
+    "maintenance": {
+      "price": 100000,
+      "frequency": "Annual",
+      "duration": "3 days",
+      "location": "Fleet"
+    },
+    "overhaul": {
+      "price": 500000,
+      "frequency": "Every 4 years",
+      "duration": "2 weeks",
+      "location": "Port"
+    },
+    "expected_lifetime": 20,
+    "names": [
+      "Deep Explorer",
+      "Submerge",
+      "Aquatic Aid",
+      "Sea Diver",
+      "Depth Seeker",
+      "Marine Explorer",
+      "Aqua Search",
+      "Dive Support",
+      "Oceanic Helper",
+      "Deep Sea Aid",
+      "Deep Probe",
+      "Submerge Two",
+      "Aquatic Aid Two",
+      "Sea Diver Two",
+      "Depth Seeker Two",
+      "Marine Explorer Two",
+      "Aqua Search Two",
+      "Dive Support Two",
+      "Oceanic Helper Two",
+      "Deep Sea Aid Two"
+    ],
+    "crew": {
+      "naval": 5,
+      "force_protection": 2,
+      "medical": 2,
+      "engineering": 5,
+      "it": 1,
+      "catering": 1
+    },
+    "running_costs": {
+      "fuel": 100000,
+      "supplies": 50000,
+      "communications": 10000,
+      "miscellaneous": 20000
+    }    
+  },
+  "DRONE_SWARM": {
+    "upgrades": ["FRIGATE" ] ,
+    "cost_price": 5000000,
+    "build_time": "6 months",
+    "maintenance": {
+      "price": 500000,
+      "frequency": "Annual",
+      "duration": "1 month",
+      "location": "Fleet"
+    },
+    "overhaul": {
+      "price": 1000000,
+      "frequency": "Every 3 years",
+      "duration": "2 weeks",
+      "location": "Port"
+    },
+    "expected_lifetime": 5,
+    "names": [
+      "Sky Net",
+      "Drone Cloud",
+      "Swarm Guard",
+      "Aero Fleet",
+      "Sky Patrol",
+      "Drone Wave",
+      "Sky Shield",
+      "Swarm Watch",
+      "Aero Guard",
+      "Sky Sentinel",
+      "Drone Legion",
+      "Sky Net Two",
+      "Drone Cloud Two",
+      "Swarm Guard Two",
+      "Aero Fleet Two",
+      "Drone Wave Two",
+      "Sky Shield Two",
+      "Swarm Watch Two",
+      "Aero Guard Two",
+      "Sky Sentinel Two"
+    ],
+    "crew": {
+      "naval": 1,
+      "force_protection": 1,
+      "medical": 0,
+      "engineering": 2,
+      "it": 5,
+      "catering": 0
+    },
+    "running_costs": {
+      "fuel": 0,
+      "supplies": 200000,
+      "communications": 500000,
+      "miscellaneous": 100000
+    }
+  },
+  "MEDIVAC_HELICOPTER": {
+    "upgrades": [ "HOSPITAL_SHIP" ],
+    "cost_price": 25000000,
+    "build_time": "12 months",
+    "maintenance": {
+      "price": 1500000,
+      "frequency": "Annual",
+      "duration": "3 days",
+      "location": "Fleet"
+    },
+    "overhaul": {
+      "price": 6000000,
+      "frequency": "Every 5 years",
+      "duration": "1 month",
+      "location": "Port"
+    },
+    "expected_lifetime": 20,
+    "names": [
+      "Life Saver",
+      "Medi Fly",
+      "Rescue Wing",
+      "Emergency Flyer",
+      "Medical Evac",
+      "Life Line",
+      "Medi Lift",
+      "Rescue Hawk",
+      "Emergency Lift",
+      "Medical Flight",
+      "Life Saver Two",
+      "Medi Fly Two",
+      "Rescue Wing Two",
+      "Emergency Flyer Two",
+      "Medical Evac Two",
+      "Life Line Two",
+      "Medi Lift Two",
+      "Rescue Hawk Two",
+      "Emergency Lift Two",
+      "Medical Flight Two"
+    ],
+    "crew": {
+      "naval": 2,
+      "force_protection": 1,
+      "medical": 3,
+      "engineering": 1,
+      "it": 1,
+      "catering": 0
+    },
+    "running_costs": {
+      "fuel": 1200000,
+      "supplies": 100000,
+      "communications": 50000,
+      "miscellaneous": 80000
+    }
+  }
+}
