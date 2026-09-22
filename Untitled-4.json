@@ -1,0 +1,169 @@
+
+Here's the updated JSON with the addition of "Drone Swarm" and including the expected lifetime for each asset:
+
+json
+{
+  "ship_types": [
+    {
+      "type": "Constellation-class Frigate",
+      "role": "Force protection, maritime security, support operations",
+      "cost_price": "£1.2 billion",
+      "build_time": "60 months",
+      "maintenance": {
+        "price": "£20 million per year",
+        "frequency": "Annual",
+        "duration": "1 week"
+      },
+      "overhaul": {
+        "price": "£125 million",
+        "frequency": "Every 5 years",
+        "duration": "6 months"
+      },
+      "expected_lifetime": "25 years"
+    },
+    {
+      "type": "Hospital Ship",
+      "role": "Medical aid, emergency health services, medical training",
+      "cost_price": "£0.85 billion",
+      "build_time": "36 months",
+      "maintenance": {
+        "price": "£12.5 million per year",
+        "frequency": "Annual",
+        "duration": "10 days"
+      },
+      "overhaul": {
+        "price": "£75 million",
+        "frequency": "Every 7 years",
+        "duration": "4 months"
+      },
+      "expected_lifetime": "30 years"
+    },
+    {
+      "type": "Engineering Barge",
+      "role": "Infrastructure development, construction, repair, and maintenance",
+      "cost_price": "£0.01 billion",
+      "build_time": "24 months",
+      "maintenance": {
+        "price": "£1.25 million per year",
+        "frequency": "Annual",
+        "duration": "5 days"
+      },
+      "overhaul": {
+        "price": "£5 million",
+        "frequency": "Every 10 years",
+        "duration": "2 months"
+      },
+      "expected_lifetime": "40 years"
+    },
+    {
+      "type": "Fleet Transport",
+      "role": "Logistics, supply transport, personnel movement",
+      "cost_price": "£0.5 billion",
+      "build_time": "30 months",
+      "maintenance": {
+        "price": "£10 million per year",
+        "frequency": "Annual",
+        "duration": "7 days"
+      },
+      "overhaul": {
+        "price": "£50 million",
+        "frequency": "Every 6 years",
+        "duration": "3 months"
+      },
+      "expected_lifetime": "35 years"
+    },
+    {
+      "type": "Rapid Response Helicopter",
+      "role": "Emergency medical evacuation, search and rescue, rapid deployment",
+      "cost_price": "£20 million",
+      "build_time": "12 months",
+      "maintenance": {
+        "price": "£1 million per year",
+        "frequency": "Annual",
+        "duration": "3 days"
+      },
+      "overhaul": {
+        "price": "£5 million",
+        "frequency": "Every 5 years",
+        "duration": "1 month"
+      },
+      "expected_lifetime": "20 years"
+    },
+    {
+      "type": "Utility Boat",
+      "role": "Shuttle services, small cargo transport, personnel transfer",
+      "cost_price": "£1 million",
+      "build_time": "6 months",
+      "maintenance": {
+        "price": "£50,000 per year",
+        "frequency": "Annual",
+        "duration": "2 days"
+      },
+      "overhaul": {
+        "price": "£250,000",
+        "frequency": "Every 3 years",
+        "duration": "1 week"
+      },
+      "expected_lifetime": "15 years"
+    },
+    {
+      "type": "Rigid Inflatable Boat (RIB)",
+      "role": "Search and rescue, short-range transport, security patrols",
+      "cost_price": "£500,000",
+      "build_time": "3 months",
+      "maintenance": {
+        "price": "£25,000 per year",
+        "frequency": "Annual",
+        "duration": "1 day"
+      },
+      "overhaul": {
+        "price": "£100,000",
+        "frequency": "Every 2 years",
+        "duration": "3 days"
+      },
+      "expected_lifetime": "10 years"
+    },
+    {
+      "type": "Diving Support Vessel",
+      "role": "Underwater inspections, repairs, and salvage operations",
+      "cost_price": "£2 million",
+      "build_time": "8 months",
+      "maintenance": {
+        "price": "£100,000 per year",
+        "frequency": "Annual",
+        "duration": "3 days"
+      },
+      "overhaul": {
+        "price": "£500,000",
+        "frequency": "Every 4 years",
+        "duration": "2 weeks"
+      },
+      "expected_lifetime": "20 years"
+    },
+    {
+      "type": "Drone Swarm",
+      "role": "Surveillance, reconnaissance, security, and rapid response",
+      "cost_price": "£5 million",
+      "build_time": "6 months", // Time to assemble and program a full swarm
+      "maintenance": {
+        "price": "£500,000 per year",
+        "frequency": "Annual",
+        "duration": "1 month" // Includes software updates, physical checks, and repairs
+      },
+      "overhaul": {
+        "price": "£1 million",
+        "frequency": "Every 3 years",
+        "duration": "2 weeks" // Major software upgrades, hardware replacements
+      },
+      "expected_lifetime": "5 years" // Due to rapid technological advancement and wear and tear on drones
+    }
+  ]
+}
+
+**Notes on Drone Swarm:**
+
+- **Cost Price**: Reflects the cost for a complete swarm, including multiple drones, control systems, and support infrastructure.
+- **Build Time**: Assumes time needed for assembly, programming, and initial testing of the swarm.
+- **Maintenance**: Involves updating software, checking and replacing parts of individual drones, and ensuring the control systems are up to date.
+- **Overhaul**: Might include significant upgrades to the drone fleet or control software, potentially replacing older units with newer models.
+- **Expected Lifetime**: Shorter due to the rapid pace of technological change in drone technology and the physical wear on small drones, though individual drones might be replaced within the swarm to extend its operational life.
