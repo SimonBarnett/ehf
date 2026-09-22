@@ -21,6 +21,16 @@ from ehf.world import World
 DEFAULT_START = date(2019, 7, 31)
 DEFAULT_TREASURY = 2_000_000_000
 
+# README operating areas (EHF-L6 CLI deploy target; scoring stub — not a globe UI).
+HARDER_DEPLOY_THEATRES = (
+    "Cox's Bazar",
+    "Juba",
+    "Port-au-Prince",
+    "Aleppo",
+    "Mindanao",
+)
+DEFAULT_DEPLOY_TARGET = HARDER_DEPLOY_THEATRES[0]
+
 BUILD_MENU = {
     "barracks": (AssetType.BARRACKS, barracks),
     "docks": (AssetType.DOCKS, Docks),
@@ -41,6 +51,7 @@ class Campaign:
     treasury: int = DEFAULT_TREASURY
     total_spend: int = 0
     brownfield_used: set[tuple[str, str]] = field(default_factory=set)
+    deploy_target: str = DEFAULT_DEPLOY_TARGET
 
     def can_afford(self, asset_type: AssetType) -> bool:
         return self.treasury >= asset_purchase_price(asset_type)
@@ -124,19 +135,49 @@ class Campaign:
             f"training_assets_complete={self.completed_training_assets()}"
         )
 
-    def print_status(self):
-        print(f"Date: {self.world.current_day}  Treasury: £{self.treasury:,}")
+    def docked_ship_lines(self) -> list[str]:
+        lines: list[str] = []
+        for town in self.world.towns:
+            for asset in self.world.towns[town]["assets"]:
+                if not hasattr(asset, "drydocks"):
+                    continue
+                for index, dock in enumerate(asset.drydocks, start=1):
+                    if dock.contains is None:
+                        continue
+                    ship = dock.contains
+                    lines.append(
+                        f"  {town.value} / {asset.name} drydock {index}: "
+                        f"{ship.name} ({ship.type.value})"
+                    )
+        return lines
+
+    def format_status(self) -> str:
+        parts: list[str] = [
+            f"Date: {self.world.current_day}  Treasury: £{self.treasury:,}",
+            f"Deploy target (stub score): {self.deploy_target}",
+        ]
         for town in self.world.towns:
             assets = self.world.towns[town]["assets"]
             if not assets:
                 continue
-            print(f"\n{town.value}:")
+            parts.append(f"\n{town.value}:")
             for asset in assets:
                 state = "complete" if asset.Completed() else f"until {asset.completion_date}"
-                print(f"  - {asset.name} ({asset.asset_type.value}): {state}")
+                parts.append(
+                    f"  - {asset.name} ({asset.asset_type.value}): {state} "
+                    f"lat={asset.latitude} lon={asset.longitude}"
+                )
+        dock_lines = self.docked_ship_lines()
+        if dock_lines:
+            parts.append("\nShips in dock:")
+            parts.extend(dock_lines)
         if self.world.e.start:
-            print(self.world.e)
-        print(self.scorecard_line())
+            parts.append(str(self.world.e))
+        parts.append(self.scorecard_line())
+        return "\n".join(parts)
+
+    def print_status(self):
+        print(self.format_status())
 
 
 def run_blackpool_opener(campaign: Campaign):

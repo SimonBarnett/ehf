@@ -1,3 +1,4 @@
+import re
 from datetime import date
 
 import ehf
@@ -36,6 +37,14 @@ def test_scripted_campaign_acceptance():
     jaywick_assets = campaign.world.towns[Town.JAYWICK]["assets"]
     assert len(jaywick_assets) >= 1
     assert jaywick_assets[0].asset_type == AssetType.BARRACKS
+    # MRB issue #3 print gate (EHF-L6 CLI evidence)
+    transcript = campaign.format_status()
+    assert re.search(r"lat=-?\d+(?:\.\d+)? lon=-?\d+(?:\.\d+)?", transcript)
+    assert "Cox's Bazar" in transcript
+    assert "Deploy target" in transcript
+    assert campaign.count_ships() >= 1
+    assert "Ships in dock:" in transcript
+    assert "HOSPITAL_SHIP" in transcript
 
 
 def test_campaign_budget_deduction():
