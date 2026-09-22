@@ -16,12 +16,13 @@ from ehf.paths import data_path
 from ehf.ships import ShipType
 from ehf.teaching_hospital import teaching_hospital
 from ehf.town import Town
+from ehf.theatres import Deployment, god_mode_deploy, load_all_theatres, recommend_deploy_target
 from ehf.world import World
 
 DEFAULT_START = date(2019, 7, 31)
 DEFAULT_TREASURY = 2_000_000_000
 
-# README operating areas (EHF-L6 CLI deploy target; scoring stub — not a globe UI).
+# README humanitarian theatres (data in theatres.json; P4 globe).
 HARDER_DEPLOY_THEATRES = (
     "Cox's Bazar",
     "Juba",
@@ -52,6 +53,11 @@ class Campaign:
     total_spend: int = 0
     brownfield_used: set[tuple[str, str]] = field(default_factory=set)
     deploy_target: str = DEFAULT_DEPLOY_TARGET
+    deployments: list[Deployment] = field(default_factory=list)
+
+    @property
+    def globe_theatres(self):
+        return load_all_theatres(self.world.towns)
 
     def can_afford(self, asset_type: AssetType) -> bool:
         return self.treasury >= asset_purchase_price(asset_type)
@@ -151,11 +157,25 @@ class Campaign:
                     )
         return lines
 
+    def globe_status_lines(self) -> list[str]:
+        target = recommend_deploy_target(self)
+        lines = [
+            f"Globe (god-mode): deployments={len(self.deployments)} "
+            f"unlocked_tiers={sorted({d.difficulty_tier for d in self.deployments}) or [1]}",
+            f"Deploy target theatre: {target}",
+        ]
+        for deployment in self.deployments:
+            lines.append(
+                f"  deploy {deployment.theatre_name}: {deployment.kind} ×{deployment.count} "
+                f"(tier {deployment.difficulty_tier}, {deployment.day})"
+            )
+        return lines
+
     def format_status(self) -> str:
         parts: list[str] = [
             f"Date: {self.world.current_day}  Treasury: £{self.treasury:,}",
-            f"Deploy target (stub score): {self.deploy_target}",
         ]
+        parts.extend(self.globe_status_lines())
         for town in self.world.towns:
             assets = self.world.towns[town]["assets"]
             if not assets:
@@ -353,6 +373,12 @@ def run_scripted_campaign(years_after_opener: int = 4) -> Campaign:
     campaign.start_build(Town.JAYWICK, "barracks", site_index=0)
     for _ in range(years_after_opener):
         campaign.advance_academic_year()
+    # P4: escalating god-mode deploy (UK base → README theatres).
+    god_mode_deploy(campaign, "uk_blackpool", "graduates", 12)
+    if campaign.count_ships() >= 1:
+        god_mode_deploy(campaign, "coxs_bazar", "ships", 1)
+    else:
+        god_mode_deploy(campaign, "coxs_bazar", "field_team", 1)
     return campaign
 
 

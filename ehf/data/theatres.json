@@ -1,0 +1,44 @@
+{
+  "humanitarian_theatres": [
+    {
+      "id": "coxs_bazar",
+      "name": "Cox's Bazar",
+      "latitude": 21.4272,
+      "longitude": 92.0058,
+      "difficulty_tier": 2,
+      "notes": "Bangladesh — refugee camp humanitarian corridor (README #1)"
+    },
+    {
+      "id": "juba",
+      "name": "Juba",
+      "latitude": 4.8594,
+      "longitude": 31.5713,
+      "difficulty_tier": 3,
+      "notes": "South Sudan — health and infrastructure (README #2)"
+    },
+    {
+      "id": "port_au_prince",
+      "name": "Port-au-Prince",
+      "latitude": 18.5944,
+      "longitude": -72.3074,
+      "difficulty_tier": 4,
+      "notes": "Haiti — disaster recovery (README #3)"
+    },
+    {
+      "id": "aleppo",
+      "name": "Aleppo",
+      "latitude": 36.2021,
+      "longitude": 37.1343,
+      "difficulty_tier": 5,
+      "notes": "Syria — post-war reconstruction (README #4)"
+    },
+    {
+      "id": "mindanao",
+      "name": "Mindanao",
+      "latitude": 7.5,
+      "longitude": 124.0,
+      "difficulty_tier": 6,
+      "notes": "Philippines — peacebuilding and resilience (README #5)"
+    }
+  ]
+}
