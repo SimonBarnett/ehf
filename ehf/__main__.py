@@ -1,7 +1,8 @@
-"""CLI: python -m ehf [--until YYYY-MM-DD] | python -m ehf play | python -m ehf scripted"""
+"""CLI: python -m ehf [--until YYYY-MM-DD] | play | scripted | globe"""
 
 import argparse
 from datetime import date
+from pathlib import Path
 
 from ehf.game import (
     BUILD_MENU,
@@ -11,6 +12,8 @@ from ehf.game import (
     run_scripted_campaign,
     run_until,
 )
+from ehf.globe_map import render_globe_html
+from ehf.theatres import god_mode_deploy, list_theatre_choices
 from ehf.town import Town
 from ehf.world import World
 
@@ -36,6 +39,16 @@ def cmd_scripted() -> int:
     return 0
 
 
+def cmd_globe(output: Path, use_scripted: bool) -> int:
+    if use_scripted:
+        campaign = run_scripted_campaign()
+    else:
+        campaign = Campaign(world=World(DEFAULT_START), treasury=DEFAULT_TREASURY)
+    output.write_text(render_globe_html(campaign), encoding="utf-8")
+    print(f"Wrote Earth map to {output.resolve()}")
+    return 0
+
+
 def cmd_play() -> int:
     world = World(DEFAULT_START)
     campaign = Campaign(world=world, treasury=DEFAULT_TREASURY)
@@ -56,7 +69,8 @@ def cmd_play() -> int:
             return 0
         if cmd == "help":
             print(
-                "status | towns | build <town> <asset> [site] | year | enroll | scripted-exit"
+                "status | towns | theatres | deploy <id> <graduates|ships|field_team> [n] | "
+                "build <town> <asset> [site] | year | enroll | scripted-exit"
             )
             print(f"assets: {', '.join(BUILD_MENU)}")
             continue
@@ -66,6 +80,22 @@ def cmd_play() -> int:
         if cmd == "towns":
             for t in towns:
                 print(f"  {t.name} ({t.value})")
+            continue
+        if cmd == "theatres":
+            for line in list_theatre_choices(campaign):
+                print(line)
+            continue
+        if cmd == "deploy" and len(parts) >= 3:
+            theatre_id = parts[1]
+            kind = parts[2].lower()
+            count = int(parts[3]) if len(parts) > 3 else 1
+            try:
+                deployment = god_mode_deploy(campaign, theatre_id, kind, count)
+                print(
+                    f"Deployed {deployment.kind} ×{deployment.count} to {deployment.theatre_name}."
+                )
+            except ValueError as exc:
+                print(exc)
             continue
         if cmd == "build" and len(parts) >= 3:
             town_key = parts[1].upper().replace("-", "_")
@@ -108,8 +138,20 @@ def main(argv=None) -> int:
     parser.add_argument(
         "mode",
         nargs="?",
-        choices=("play",),
-        help="Interactive turn loop",
+        choices=("play", "globe"),
+        help="Interactive turn loop or write Earth map HTML",
+    )
+    parser.add_argument(
+        "--output",
+        "-o",
+        type=Path,
+        default=Path("ehf-globe.html"),
+        help="Output path for globe HTML (with globe mode)",
+    )
+    parser.add_argument(
+        "--scripted-state",
+        action="store_true",
+        help="Use scripted campaign state when generating globe HTML",
     )
     args = parser.parse_args(argv)
 
@@ -117,6 +159,8 @@ def main(argv=None) -> int:
         return cmd_until(_parse_date(args.until))
     if args.scripted:
         return cmd_scripted()
+    if args.mode == "globe":
+        return cmd_globe(args.output, args.scripted_state)
     if args.mode == "play":
         return cmd_play()
     parser.print_help()
