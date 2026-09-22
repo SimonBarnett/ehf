@@ -10,6 +10,7 @@ from typing import Callable, Optional
 
 from ehf.assets import AssetType
 from ehf.barracks import barracks
+from ehf.dock_rules import apply_docks_completion_unlocks
 from ehf.docks import Docks
 from ehf.engschool import engineering_school
 from ehf.paths import data_path
@@ -275,8 +276,7 @@ def run_blackpool_opener(campaign: Campaign):
             world.towns[Town.BLACKPOOL]["latitude"],
             world.towns[Town.BLACKPOOL]["longitude"],
             OnComplete=lambda d: (
-                d.add_class("Basic_Naval_Training", 1)
-                or d.add_class("naval_engineering", 9)
+                apply_docks_completion_unlocks(d)
                 or d.upgrade(
                     AssetType.CATERING_UPGRADE,
                     OnComplete=lambda e: (
