@@ -1,0 +1,1159 @@
+{
+    "towns": [
+        {
+            "name": "Blackpool",
+            "latitude": 53.8175,
+            "longitude": -3.0357,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Old Gas Station",
+                    "latitude": 53.8210,
+                    "longitude": -3.0400
+                },
+                {
+                    "name": "Abandoned Warehouse",
+                    "latitude": 53.8150,
+                    "longitude": -3.0300
+                },
+                {
+                    "name": "Disused Rail Yard",
+                    "latitude": 53.8225,
+                    "longitude": -3.0275
+                },
+                {
+                    "name": "Former Coal Yard",
+                    "latitude": 53.8090,
+                    "longitude": -3.0450
+                },
+                {
+                    "name": "Old Textile Mill",
+                    "latitude": 53.8185,
+                    "longitude": -3.0500
+                },
+                {
+                    "name": "Closed Down Car Park",
+                    "latitude": 53.8120,
+                    "longitude": -3.0380
+                },
+                {
+                    "name": "Vacant Industrial Lot",
+                    "latitude": 53.8200,
+                    "longitude": -3.0250
+                },
+                {
+                    "name": "Former Chemical Plant",
+                    "latitude": 53.8075,
+                    "longitude": -3.0425
+                },
+                {
+                    "name": "Derelict Office Building",
+                    "latitude": 53.8160,
+                    "longitude": -3.0290
+                }
+            ]
+        },
+        {
+            "name": "Jaywick",
+            "latitude": 51.7761,
+            "longitude": 1.1212,
+            "relative_poverty_value": "Extremely High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Holiday Camp",
+                    "latitude": 51.7765,
+                    "longitude": 1.1220
+                },
+                {
+                    "name": "Abandoned Caravan Park",
+                    "latitude": 51.7750,
+                    "longitude": 1.1210
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 51.7770,
+                    "longitude": 1.1205
+                },
+                {
+                    "name": "Disused Amusement Park",
+                    "latitude": 51.7760,
+                    "longitude": 1.1225
+                },
+                {
+                    "name": "Vacant Commercial Lot",
+                    "latitude": 51.7755,
+                    "longitude": 1.1200
+                },
+                {
+                    "name": "Former Seafront Hotel",
+                    "latitude": 51.7775,
+                    "longitude": 1.1230
+                },
+                {
+                    "name": "Derelict Storage Facility",
+                    "latitude": 51.7745,
+                    "longitude": 1.1195
+                },
+                {
+                    "name": "Old Fish Processing Plant",
+                    "latitude": 51.7768,
+                    "longitude": 1.1235
+                },
+                {
+                    "name": "Closed Down Retail Space",
+                    "latitude": 51.7758,
+                    "longitude": 1.1215
+                },
+                {
+                    "name": "Former Community Centre",
+                    "latitude": 51.7762,
+                    "longitude": 1.1208
+                }
+            ]
+        },
+        {
+            "name": "Clacton-on-Sea",
+            "latitude": 51.7934,
+            "longitude": 1.1562,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Old Cinema Site",
+                    "latitude": 51.7930,
+                    "longitude": 1.1550
+                },
+                {
+                    "name": "Former Industrial Estate",
+                    "latitude": 51.7920,
+                    "longitude": 1.1565
+                },
+                {
+                    "name": "Vacant Retail Park",
+                    "latitude": 51.7945,
+                    "longitude": 1.1540
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 51.7910,
+                    "longitude": 1.1570
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 51.7950,
+                    "longitude": 1.1530
+                },
+                {
+                    "name": "Derelict Car Park",
+                    "latitude": 51.7935,
+                    "longitude": 1.1555
+                },
+                {
+                    "name": "Former Gasworks",
+                    "latitude": 51.7925,
+                    "longitude": 1.1560
+                },
+                {
+                    "name": "Closed Down Factory",
+                    "latitude": 51.7940,
+                    "longitude": 1.1545
+                },
+                {
+                    "name": "Old Amusement Arcade",
+                    "latitude": 51.7915,
+                    "longitude": 1.1575
+                },
+                {
+                    "name": "Disused Warehouse",
+                    "latitude": 51.7955,
+                    "longitude": 1.1525
+                }
+            ]
+        },
+        {
+            "name": "Skegness",
+            "latitude": 53.1434,
+            "longitude": 0.3368,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Old Amusement Park",
+                    "latitude": 53.1420,
+                    "longitude": 0.3370
+                },
+                {
+                    "name": "Former Hotel Site",
+                    "latitude": 53.1430,
+                    "longitude": 0.3350
+                },
+                {
+                    "name": "Derelict Car Park",
+                    "latitude": 53.1440,
+                    "longitude": 0.3365
+                },
+                {
+                    "name": "Vacant Retail Space",
+                    "latitude": 53.1415,
+                    "longitude": 0.3375
+                },
+                {
+                    "name": "Abandoned Factory",
+                    "latitude": 53.1425,
+                    "longitude": 0.3360
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 53.1435,
+                    "longitude": 0.3355
+                },
+                {
+                    "name": "Closed Down Holiday Camp",
+                    "latitude": 53.1405,
+                    "longitude": 0.3380
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 53.1410,
+                    "longitude": 0.3377
+                },
+                {
+                    "name": "Disused Industrial Lot",
+                    "latitude": 53.1445,
+                    "longitude": 0.3345
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 53.1432,
+                    "longitude": 0.3358
+                }
+            ]
+        },
+        {
+            "name": "Rhyl",
+            "latitude": 53.3192,
+            "longitude": -3.4924,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Arcade",
+                    "latitude": 53.3190,
+                    "longitude": -3.4920
+                },
+                {
+                    "name": "Old Seafront Hotel",
+                    "latitude": 53.3185,
+                    "longitude": -3.4930
+                },
+                {
+                    "name": "Vacant Car Park",
+                    "latitude": 53.3200,
+                    "longitude": -3.4915
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 53.3180,
+                    "longitude": -3.4925
+                },
+                {
+                    "name": "Closed Down Factory",
+                    "latitude": 53.3195,
+                    "longitude": -3.4910
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 53.3205,
+                    "longitude": -3.4905
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 53.3175,
+                    "longitude": -3.4935
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 53.3188,
+                    "longitude": -3.4928
+                },
+                {
+                    "name": "Disused Industrial Land",
+                    "latitude": 53.3210,
+                    "longitude": -3.4900
+                },
+                {
+                    "name": "Old Market Building",
+                    "latitude": 53.3192,
+                    "longitude": -3.4918
+                }
+            ]
+        },
+        {
+            "name": "Margate",
+            "latitude": 51.3814,
+            "longitude": 1.3862,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 51.3810,
+                    "longitude": 1.3860
+                },
+                {
+                    "name": "Old Cinema Building",
+                    "latitude": 51.3815,
+                    "longitude": 1.3850
+                },
+                {
+                    "name": "Vacant Car Park",
+                    "latitude": 51.3820,
+                    "longitude": 1.3870
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 51.3805,
+                    "longitude": 1.3865
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 51.3812,
+                    "longitude": 1.3855
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 51.3825,
+                    "longitude": 1.3845
+                },
+                {
+                    "name": "Abandoned Holiday Camp",
+                    "latitude": 51.3800,
+                    "longitude": 1.3875
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 51.3818,
+                    "longitude": 1.3862
+                },
+                {
+                    "name": "Disused Industrial Area",
+                    "latitude": 51.3830,
+                    "longitude": 1.3840
+                },
+                {
+                    "name": "Old Market Site",
+                    "latitude": 51.3814,
+                    "longitude": 1.3858
+                }
+            ]
+        },
+        {
+            "name": "Great Yarmouth",
+            "latitude": 52.6062,
+            "longitude": 1.7293,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Fishing Industry Site",
+                    "latitude": 52.6055,
+                    "longitude": 1.7290
+                },
+                {
+                    "name": "Old Manufacturing Plant",
+                    "latitude": 52.6060,
+                    "longitude": 1.7300
+                },
+                {
+                    "name": "Vacant Warehouse",
+                    "latitude": 52.6070,
+                    "longitude": 1.7280
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 52.6050,
+                    "longitude": 1.7310
+                },
+                {
+                    "name": "Closed Down Amusement Park",
+                    "latitude": 52.6065,
+                    "longitude": 1.7295
+                },
+                {
+                    "name": "Old Docks Area",
+                    "latitude": 52.6075,
+                    "longitude": 1.7275
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 52.6045,
+                    "longitude": 1.7315
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 52.6058,
+                    "longitude": 1.7305
+                },
+                {
+                    "name": "Disused Industrial Lot",
+                    "latitude": 52.6080,
+                    "longitude": 1.7270
+                },
+                {
+                    "name": "Old Market Building",
+                    "latitude": 52.6062,
+                    "longitude": 1.7302
+                }
+            ]
+        },
+        {
+            "name": "Grimsby",
+            "latitude": 53.5654,
+            "longitude": -0.0755,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Docks Facility",
+                    "latitude": 53.5650,
+                    "longitude": -0.0750
+                },
+                {
+                    "name": "Old Fish Market",
+                    "latitude": 53.5660,
+                    "longitude": -0.0760
+                },
+                {
+                    "name": "Vacant Industrial Lot",
+                    "latitude": 53.5645,
+                    "longitude": -0.0745
+                },
+                {
+                    "name": "Derelict Warehouse",
+                    "latitude": 53.5655,
+                    "longitude": -0.0755
+                },
+                {
+                    "name": "Closed Down Factory",
+                    "latitude": 53.5640,
+                    "longitude": -0.0765
+                },
+                {
+                    "name": "Abandoned Rail Yard",
+                    "latitude": 53.5670,
+                    "longitude": -0.0740
+                },
+                {
+                    "name": "Old Gasworks Site",
+                    "latitude": 53.5665,
+                    "longitude": -0.0770
+                },
+                {
+                    "name": "Former Retail Space",
+                    "latitude": 53.5635,
+                    "longitude": -0.0758
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 53.5658,
+                    "longitude": -0.0762
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 53.5648,
+                    "longitude": -0.0752
+                }
+            ]
+        },
+        {
+            "name": "Scarborough",
+            "latitude": 54.2796,
+            "longitude": -0.4020,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Hotel Site",
+                    "latitude": 54.2790,
+                    "longitude": -0.4025
+                },
+                {
+                    "name": "Old Amusement Arcade",
+                    "latitude": 54.2800,
+                    "longitude": -0.4030
+                },
+                {
+                    "name": "Vacant Car Park",
+                    "latitude": 54.2785,
+                    "longitude": -0.4020
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 54.2795,
+                    "longitude": -0.4035
+                },
+                {
+                    "name": "Closed Down Factory",
+                    "latitude": 54.2780,
+                    "longitude": -0.4015
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 54.2805,
+                    "longitude": -0.4040
+                },
+                {
+                    "name": "Abandoned Holiday Camp",
+                    "latitude": 54.2775,
+                    "longitude": -0.4010
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 54.2792,
+                    "longitude": -0.4028
+                },
+                {
+                    "name": "Disused Industrial Area",
+                    "latitude": 54.2810,
+                    "longitude": -0.4045
+                },
+                {
+                    "name": "Old Market Building",
+                    "latitude": 54.2798,
+                    "longitude": -0.4032
+                }
+            ]
+        },
+        {
+            "name": "Bridlington",
+            "latitude": 54.0858,
+            "longitude": -0.1936,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Fishing Yard",
+                    "latitude": 54.0855,
+                    "longitude": -0.1940
+                },
+                {
+                    "name": "Old Amusement Park",
+                    "latitude": 54.0860,
+                    "longitude": -0.1935
+                },
+                {
+                    "name": "Vacant Industrial Lot",
+                    "latitude": 54.0850,
+                    "longitude": -0.1945
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 54.0865,
+                    "longitude": -0.1930
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 54.0845,
+                    "longitude": -0.1950
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 54.0870,
+                    "longitude": -0.1925
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 54.0840,
+                    "longitude": -0.1955
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 54.0858,
+                    "longitude": -0.1938
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 54.0862,
+                    "longitude": -0.1932
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 54.0852,
+                    "longitude": -0.1942
+                }
+            ]
+        },
+        {
+            "name": "Hastings",
+            "latitude": 50.8542,
+            "longitude": 0.5730,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Old Fishing Industry Area",
+                    "latitude": 50.8540,
+                    "longitude": 0.5735
+                },
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 50.8545,
+                    "longitude": 0.5730
+                },
+                {
+                    "name": "Vacant Industrial Land",
+                    "latitude": 50.8550,
+                    "longitude": 0.5740
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 50.8535,
+                    "longitude": 0.5725
+                },
+                {
+                    "name": "Closed Down Factory",
+                    "latitude": 50.8555,
+                    "longitude": 0.5720
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 50.8560,
+                    "longitude": 0.5745
+                },
+                {
+                    "name": "Abandoned Holiday Camp",
+                    "latitude": 50.8530,
+                    "longitude": 0.5750
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 50.8548,
+                    "longitude": 0.5732
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 50.8552,
+                    "longitude": 0.5728
+                },
+                {
+                    "name": "Old Market Building",
+                    "latitude": 50.8542,
+                    "longitude": 0.5738
+                }
+            ]
+        },
+        {
+            "name": "Morecambe",
+            "latitude": 54.0705,
+            "longitude": -2.8698,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 54.0700,
+                    "longitude": -2.8700
+                },
+                {
+                    "name": "Old Leisure Facility",
+                    "latitude": 54.0705,
+                    "longitude": -2.8695
+                },
+                {
+                    "name": "Vacant Industrial Land",
+                    "latitude": 54.0710,
+                    "longitude": -2.8705
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 54.0695,
+                    "longitude": -2.8710
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 54.0715,
+                    "longitude": -2.8690
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 54.0720,
+                    "longitude": -2.8715
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 54.0690,
+                    "longitude": -2.8720
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 54.0708,
+                    "longitude": -2.8702
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 54.0712,
+                    "longitude": -2.8698
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 54.0702,
+                    "longitude": -2.8708
+                }
+            ]
+        },
+        {
+            "name": "Cleethorpes",
+            "latitude": 53.5620,
+            "longitude": -0.0280,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 53.5615,
+                    "longitude": -0.0285
+                },
+                {
+                    "name": "Old Leisure Facility",
+                    "latitude": 53.5620,
+                    "longitude": -0.0280
+                },
+                {
+                    "name": "Vacant Industrial Land",
+                    "latitude": 53.5625,
+                    "longitude": -0.0275
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 53.5610,
+                    "longitude": -0.0290
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 53.5630,
+                    "longitude": -0.0270
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 53.5635,
+                    "longitude": -0.0265
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 53.5605,
+                    "longitude": -0.0295
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 53.5618,
+                    "longitude": -0.0282
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 53.5622,
+                    "longitude": -0.0278
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 53.5612,
+                    "longitude": -0.0288
+                }
+            ]
+        },
+        {
+            "name": "South Shields",
+            "latitude": 54.9985,
+            "longitude": -1.4330,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 54.9980,
+                    "longitude": -1.4335
+                },
+                {
+                    "name": "Old Leisure Facility",
+                    "latitude": 54.9985,
+                    "longitude": -1.4330
+                },
+                {
+                    "name": "Vacant Industrial Land",
+                    "latitude": 54.9990,
+                    "longitude": -1.4325
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 54.9975,
+                    "longitude": -1.4340
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 54.9995,
+                    "longitude": -1.4320
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 55.0000,
+                    "longitude": -1.4315
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 54.9970,
+                    "longitude": -1.4345
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 54.9988,
+                    "longitude": -1.4332
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 54.9992,
+                    "longitude": -1.4328
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 54.9982,
+                    "longitude": -1.4338
+                }
+            ]
+        },
+        {
+            "name": "Whitstable",
+            "latitude": 51.3605,
+            "longitude": 1.0241,
+            "relative_poverty_value": "Medium-High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 51.3600,
+                    "longitude": 1.0245
+                },
+                {
+                    "name": "Old Leisure Facility",
+                    "latitude": 51.3605,
+                    "longitude": 1.0240
+                },
+                {
+                    "name": "Vacant Industrial Land",
+                    "latitude": 51.3610,
+                    "longitude": 1.0235
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 51.3595,
+                    "longitude": 1.0250
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 51.3615,
+                    "longitude": 1.0230
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 51.3620,
+                    "longitude": 1.0225
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 51.3590,
+                    "longitude": 1.0255
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 51.3608,
+                    "longitude": 1.0242
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 51.3612,
+                    "longitude": 1.0238
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 51.3602,
+                    "longitude": 1.0248
+                }
+            ]
+        },
+        {
+            "name": "Bognor Regis",
+            "latitude": 50.7832,
+            "longitude": -0.6726,
+            "relative_poverty_value": "Medium-High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 50.7830,
+                    "longitude": -0.6730
+                },
+                {
+                    "name": "Old Leisure Facility",
+                    "latitude": 50.7835,
+                    "longitude": -0.6725
+                },
+                {
+                    "name": "Vacant Industrial Land",
+                    "latitude": 50.7840,
+                    "longitude": -0.6720
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 50.7825,
+                    "longitude": -0.6735
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 50.7845,
+                    "longitude": -0.6715
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 50.7850,
+                    "longitude": -0.6710
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 50.7820,
+                    "longitude": -0.6740
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 50.7838,
+                    "longitude": -0.6728
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 50.7842,
+                    "longitude": -0.6722
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 50.7832,
+                    "longitude": -0.6732
+                }
+            ]
+        },
+        {
+            "name": "Redcar",
+            "latitude": 54.6190,
+            "longitude": -1.0566,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 54.6185,
+                    "longitude": -1.0570
+                },
+                {
+                    "name": "Old Leisure Facility",
+                    "latitude": 54.6190,
+                    "longitude": -1.0565
+                },
+                {
+                    "name": "Vacant Industrial Land",
+                    "latitude": 54.6195,
+                    "longitude": -1.0560
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 54.6180,
+                    "longitude": -1.0575
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 54.6200,
+                    "longitude": -1.0555
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 54.6205,
+                    "longitude": -1.0550
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 54.6175,
+                    "longitude": -1.0580
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 54.6188,
+                    "longitude": -1.0568
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 54.6192,
+                    "longitude": -1.0562
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 54.6182,
+                    "longitude": -1.0572
+                }
+            ]
+        },
+        {
+            "name": "Hartlepool",
+            "latitude": 54.6872,
+            "longitude": -1.2102,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 54.6870,
+                    "longitude": -1.2105
+                },
+                {
+                    "name": "Old Leisure Facility",
+                    "latitude": 54.6875,
+                    "longitude": -1.2100
+                },
+                {
+                    "name": "Vacant Industrial Land",
+                    "latitude": 54.6880,
+                    "longitude": -1.2095
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 54.6865,
+                    "longitude": -1.2110
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 54.6885,
+                    "longitude": -1.2090
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 54.6890,
+                    "longitude": -1.2085
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 54.6860,
+                    "longitude": -1.2115
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 54.6878,
+                    "longitude": -1.2102
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 54.6882,
+                    "longitude": -1.2098
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 54.6872,
+                    "longitude": -1.2108
+                }
+            ]
+        },
+        {
+            "name": "Lowestoft",
+            "latitude": 52.4760,
+            "longitude": 1.7514,
+            "relative_poverty_value": "High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 52.4755,
+                    "longitude": 1.7510
+                },
+                {
+                    "name": "Old Leisure Facility",
+                    "latitude": 52.4760,
+                    "longitude": 1.7515
+                },
+                {
+                    "name": "Vacant Industrial Land",
+                    "latitude": 52.4765,
+                    "longitude": 1.7520
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 52.4750,
+                    "longitude": 1.7505
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 52.4770,
+                    "longitude": 1.7525
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 52.4775,
+                    "longitude": 1.7530
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 52.4745,
+                    "longitude": 1.7500
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 52.4758,
+                    "longitude": 1.7512
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 52.4762,
+                    "longitude": 1.7518
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 52.4752,
+                    "longitude": 1.7508
+                }
+            ]
+        },
+        {
+            "name": "Southport",
+            "latitude": 53.6480,
+            "longitude": -3.0077,
+            "relative_poverty_value": "Medium-High",
+            "brownfield_sites": [
+                {
+                    "name": "Former Amusement Park",
+                    "latitude": 53.6475,
+                    "longitude": -3.0080
+                },
+                {
+                    "name": "Old Leisure Facility",
+                    "latitude": 53.6480,
+                    "longitude": -3.0075
+                },
+                {
+                    "name": "Vacant Industrial Land",
+                    "latitude": 53.6485,
+                    "longitude": -3.0070
+                },
+                {
+                    "name": "Derelict Retail Space",
+                    "latitude": 53.6470,
+                    "longitude": -3.0085
+                },
+                {
+                    "name": "Closed Factory",
+                    "latitude": 53.6490,
+                    "longitude": -3.0065
+                },
+                {
+                    "name": "Old Pier Storage",
+                    "latitude": 53.6495,
+                    "longitude": -3.0060
+                },
+                {
+                    "name": "Abandoned Holiday Park",
+                    "latitude": 53.6465,
+                    "longitude": -3.0090
+                },
+                {
+                    "name": "Former Gas Station",
+                    "latitude": 53.6478,
+                    "longitude": -3.0078
+                },
+                {
+                    "name": "Disused Car Park",
+                    "latitude": 53.6482,
+                    "longitude": -3.0072
+                },
+                {
+                    "name": "Old Market Area",
+                    "latitude": 53.6472,
+                    "longitude": -3.0082
+                }
+            ]
+        }
+    ]
+}
