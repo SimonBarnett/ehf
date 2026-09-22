@@ -1,6 +1,7 @@
 
 from datetime import date, timedelta
 from ehf.assets import AssetType, drydock
+from ehf.dock_rules import validate_ship_build
 from ehf.educational_facilities import EducationalFacilities
 from ehf.ships import Ship, ShipType, ShipStatus  
     
@@ -19,13 +20,8 @@ class Docks(EducationalFacilities):
         )
 
     def Build(self, dock , tship: ShipType):
-        
-        if dock > len(self.drydocks):
-            raise ValueError(f"Dock {dock} does not exist.")
-        
-        if self.drydocks[dock-1].contains != None:           
-            raise ValueError(f"Dock {dock} is not empty.")
-        
+        validate_ship_build(self, dock, tship)
+
         self.drydocks[dock-1].contains = Ship(
             tship
             , self.current_day
